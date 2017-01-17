@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.com.lucassalinas.tinywords">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Comida"
+            android:label="Level 1: Food" />
+        <activity
+            android:name=".Ropa"
+            android:label="LEvel 2: Clothes" />
+        <activity
+            android:name=".Animales"
+            android:label="Level 3: Animals" />
+        <activity
+            android:name=".Oficios"
+            android:label="Level 4: Jobs" />
+        <activity android:name=".Score"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_back"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="es.com.lucassalinas.tinywords.Main2Activity"
+    tools:showIn="@layout/app_bar_main2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100sp">
+
+
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginRight="30sp"
+            android:layout_marginBottom="30sp"
+            android:src="@drawable/comida"
+            android:scaleType="fitXY"
+            android:padding="5sp"
+            android:id="@+id/comida"/>
+
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:src="@drawable/ropa"
+            android:scaleType="fitXY"
+            android:padding="5sp"
+            android:clickable="false"
+            android:id="@+id/ropa"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_marginRight="30sp"
+            android:src="@drawable/animales"
+            android:scaleType="fitXY"
+            android:padding="5sp"
+            android:clickable="false"
+            android:id="@+id/animales"/>
+
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:src="@drawable/oficios"
+            android:scaleType="fitXY"
+            android:padding="5sp"
+            android:clickable="false"
+            android:id="@+id/oficios"/>
+
+    </LinearLayout>
+
+</LinearLayout>
